@@ -33,7 +33,7 @@
       {
         "tag": "thanks",
         "patterns": ["Merci", "Merci beaucoup.", "Mille mercis !", "Merci infiniment","C'est gentil."],
-        "responses": ["De rien.", "Avec plaisir.", "No problemo.", "Tkt BEAU GOSSE !"]
+        "responses": ["De rien.", "Avec plaisir.", "A tout moment"]
       },
       {
         "tag": "items",

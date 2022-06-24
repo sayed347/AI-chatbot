@@ -1,0 +1,126 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Bonjour",
+          "Comment allez vous?",
+          "Salut",
+          "il y'a quelqu'un ici?"
+        ],
+        "responses": [
+          "Bonjour :-)",
+          "Salut, comment puis-je vous aider ?",
+          "Bienvenue sur T.A.P.A.S, le meilleur site pour acheter du cafe."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "au revoir", "a bientôt"],
+        "responses": [
+          "Au revoir et merci pour votre visite.",
+          "Je vous souhaite une bonne soiree !",
+          "Bye ! A bientot dans nos points de vente ou sur notre site web.",
+          "Bye, on attend votre prochaine visite."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Merci", "Merci beaucoup.", "Mille mercis !", "Merci infiniment","C'est gentil."],
+        "responses": ["De rien.", "Avec plaisir.", "No problemo.", "Tkt BEAU GOSSE !"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "vous avez quels types de cafe?",
+          "Quels sont vos produits?",
+          "vous proposez quoi comme cafe ou the?",
+          "je veux avoir une idée sur vos produits",
+          "vous avez quoi comme café ou thé?",
+          "vous pouvez me donner une idée sur vos produits?"
+          
+        ],
+        "responses": [
+          "Nous vendons plusieurs types de cafe et the, vous voulez du cafe ou du the ?",
+          "On vend tout type de cafe et the vous voulez cafe ou the."
+          
+        ]
+      },
+      {
+        "tag": "cafe",
+        "patterns": [
+          "cafe",
+          "je veux du cafe",
+          "je veux acheter du café",
+          "je choisis café",
+          "vous avez la marque Nespresso",
+          "quelles sont les marques de café que vous proposez?"
+        ],
+        "responses": [
+          "Pour les cafes on a l'Or, Senseo, Tassimo, Nespresso, Grand mere... et plein d'autres.",
+          "Nous avons du nespresso, l'Or, Tassimo, Grand mere..."
+        ]  
+      },
+      {
+        "tag": "the",
+        "patterns": [
+          "the",
+          "Pour les thés vous proposez quoi?",
+          "il y'a quoi comme thé?",
+          "je choisis le thé",
+          "il y'a des tisanes?"
+        ],
+        "responses": [
+          "Pour les thes nous avons du the vert, noir ainsi que des tisanes..."
+        ]  
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "je peux payer a distance?",
+          "est-ce-que je peux payer par carte?",
+          "je peux payer en espèce",
+          "Vous acceptez les cartes de crédits?",
+          "Vous acceptez les Mastercards?",
+          "Je peux payer avec Paypal?",
+          "Acceptez-vous uniquement les espèces?",
+          "payements",
+          "quels sont les types de paiements?"
+        ],
+        "responses": [
+          "On accepte VISA, Mastercard et Paypal, le paiements en especes ou par carte est autorise.",
+          "Nous acceptons la plupart des principales cartes de crédit ainsi que Paypal, le paiements en especes ou par carte est autorise."
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "Combien de temps prend la livraison?",
+          "il y'a un service livraison?",
+          "Quand est-ce que je reçois ma livraison ?",
+          "livraison",
+          "je peux avoir une livraison"
+        ],
+        "responses": [
+          "La livraison prend entre 2 et 4 jours sur toute la france."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "efrei",
+          "tu t'appelle efrei",
+          "tu connais efrei"
+        ],
+        "responses": [
+          "Oui je suis developpeur a l'efrei pour vous offrir une meilleure experience sur notre site."
+        ]
+      }
+    ]
+  }
